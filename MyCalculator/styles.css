@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+.container{
+  background: lightgrey;
+  width: 600px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.buttons-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fixed;
+}
+.buttons{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+input[type=button] {
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+input[type=text] {
+    width: 450px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+.clear-button{
+  display: flex;
+  justify-content: flex-end;
+}
+input[name="clear"]{
+  margin-right: 30px;
+  height: 50px;
+  font-size: 20px;
+  background: lightyellow;
+}
+input[name="eq"]{
+  background: lightblue;
+}
